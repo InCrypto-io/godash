@@ -10,7 +10,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 const (

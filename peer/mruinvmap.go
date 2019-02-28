@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // mruInventoryMap provides a concurrency safe map that is limited to a maximum

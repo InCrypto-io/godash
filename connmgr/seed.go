@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/wire"
 )
 
 const (

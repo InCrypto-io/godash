@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/nargott/godash/database"
 	"github.com/btcsuite/btclog"
+	"github.com/incrypto-io/godash/database"
 	flags "github.com/jessevdk/go-flags"
 )
 

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // addrIndexBucket provides a mock address index database bucket by implementing

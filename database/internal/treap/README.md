@@ -3,7 +3,7 @@ treap
 
 [![Build Status](https://travis-ci.org/nargott/godash.png?branch=master)](https://travis-ci.org/nargott/godash)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/nargott/godash/database/internal/treap?status.png)](http://godoc.org/github.com/nargott/godash/database/internal/treap)
+[![GoDoc](https://godoc.org/github.com/incrypto-io/godash/database/internal/treap?status.png)](http://godoc.org/github.com/incrypto-io/godash/database/internal/treap)
 
 Package treap implements a treap data structure that is used to hold ordered
 key/value pairs using a combination of binary search tree and heap semantics.

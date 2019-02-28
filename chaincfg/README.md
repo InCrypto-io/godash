@@ -3,7 +3,7 @@ chaincfg
 
 [![Build Status](http://img.shields.io/travis/nargott/godash.svg)](https://travis-ci.org/nargott/godash)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/nargott/godash/chaincfg)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/incrypto-io/godash/chaincfg)
 
 Package chaincfg defines chain configuration parameters for the three standard
 Bitcoin networks and provides the ability for callers to define their own custom
@@ -25,7 +25,7 @@ import (
 	"log"
 
 	"github.com/nargott/godashutil"
-	"github.com/nargott/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg"
 )
 
 var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")
@@ -56,7 +56,7 @@ func main() {
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/nargott/godash/chaincfg
+$ go get -u github.com/incrypto-io/godash/chaincfg
 ```
 
 ## GPG Verification Key

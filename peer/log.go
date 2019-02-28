@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/txscript"
-	"github.com/nargott/godash/wire"
 	"github.com/btcsuite/btclog"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/txscript"
+	"github.com/incrypto-io/godash/wire"
 )
 
 const (

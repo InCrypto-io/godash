@@ -13,9 +13,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/nargott/godash/btcjson"
-	"github.com/nargott/godashutil"
+	"github.com/incrypto-io/godash/btcjson"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/nargott/godashutil"
 )
 
 const (

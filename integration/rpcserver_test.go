@@ -14,8 +14,8 @@ import (
 	"runtime/debug"
 	"testing"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/integration/rpctest"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/integration/rpctest"
 )
 
 func testGetBestBlock(r *rpctest.Harness, t *testing.T) {

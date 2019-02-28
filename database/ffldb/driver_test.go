@@ -13,9 +13,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/database/ffldb"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/database/ffldb"
 	"github.com/nargott/godashutil"
 )
 

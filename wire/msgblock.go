@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // defaultTransactionAlloc is the default size used for the backing array

@@ -14,11 +14,6 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/database/internal/treap"
-	"github.com/nargott/godash/wire"
-	"github.com/nargott/godashutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/comparer"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
@@ -26,6 +21,11 @@ import (
 	"github.com/btcsuite/goleveldb/leveldb/iterator"
 	"github.com/btcsuite/goleveldb/leveldb/opt"
 	"github.com/btcsuite/goleveldb/leveldb/util"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/database/internal/treap"
+	"github.com/incrypto-io/godash/wire"
+	"github.com/nargott/godashutil"
 )
 
 const (

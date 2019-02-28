@@ -11,7 +11,7 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // MessageHeaderSize is the number of bytes in a bitcoin message header.
@@ -166,9 +166,9 @@ func makeEmptyMessage(command string) (Message, error) {
 // messageHeader defines the header structure for all bitcoin protocol messages.
 type messageHeader struct {
 	magic    DASHNet // 4 bytes
-	command  string     // 12 bytes
-	length   uint32     // 4 bytes
-	checksum [4]byte    // 4 bytes
+	command  string  // 12 bytes
+	length   uint32  // 4 bytes
+	checksum [4]byte // 4 bytes
 }
 
 // readMessageHeader reads a bitcoin message header from r.

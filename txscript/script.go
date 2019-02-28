@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // Bip16Activation is the timestamp where BIP0016 is valid to use in the

@@ -8,8 +8,8 @@ import (
 	"crypto/rand"
 	"testing"
 
-	"github.com/nargott/godash/btcec"
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/btcec"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // genRandomSig returns a random message, a signature of the message under the

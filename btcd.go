@@ -15,9 +15,9 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/nargott/godash/blockchain/indexers"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/limits"
+	"github.com/incrypto-io/godash/blockchain/indexers"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/limits"
 )
 
 const (

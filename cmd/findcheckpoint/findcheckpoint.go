@@ -9,10 +9,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/database"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/database"
 )
 
 const blockDbNamePrefix = "blocks"

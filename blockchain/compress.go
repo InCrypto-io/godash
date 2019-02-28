@@ -6,8 +6,8 @@
 package blockchain
 
 import (
-	"github.com/nargott/godash/btcec"
-	"github.com/nargott/godash/txscript"
+	"github.com/incrypto-io/godash/btcec"
+	"github.com/incrypto-io/godash/txscript"
 )
 
 // -----------------------------------------------------------------------------

@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/nargott/godash/txscript"
+	"github.com/incrypto-io/godash/txscript"
 	"github.com/nargott/godashutil"
 )
 

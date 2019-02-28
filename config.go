@@ -20,16 +20,16 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/connmgr"
-	"github.com/nargott/godash/database"
-	_ "github.com/nargott/godash/database/ffldb"
-	"github.com/nargott/godash/mempool"
-	"github.com/nargott/godashutil"
 	"github.com/btcsuite/go-socks/socks"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/connmgr"
+	"github.com/incrypto-io/godash/database"
+	_ "github.com/incrypto-io/godash/database/ffldb"
+	"github.com/incrypto-io/godash/mempool"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/nargott/godashutil"
 )
 
 const (

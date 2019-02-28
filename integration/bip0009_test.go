@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/integration/rpctest"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/integration/rpctest"
 )
 
 const (

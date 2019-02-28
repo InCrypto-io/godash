@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/nargott/godash/database"
+	"github.com/incrypto-io/godash/database"
 )
 
 // The serialized write cursor location format is:

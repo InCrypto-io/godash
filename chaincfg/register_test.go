@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	. "github.com/nargott/godash/chaincfg"
+	. "github.com/incrypto-io/godash/chaincfg"
 )
 
 // Define some of the required parameters for a user-registered

@@ -12,8 +12,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // TestMerkleBlock tests the MsgMerkleBlock API.

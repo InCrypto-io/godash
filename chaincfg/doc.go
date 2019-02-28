@@ -26,7 +26,7 @@
 //          "log"
 //
 //          "github.com/nargott/godashutil"
-//          "github.com/nargott/godash/chaincfg"
+//          "github.com/incrypto-io/godash/chaincfg"
 //  )
 //
 //  var testnet = flag.Bool("testnet", false, "operate on the testnet Bitcoin network")

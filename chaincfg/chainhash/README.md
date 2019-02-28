@@ -3,7 +3,7 @@ chainhash
 
 [![Build Status](http://img.shields.io/travis/nargott/godash.svg)](https://travis-ci.org/nargott/godash)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/nargott/godash/chaincfg/chainhash)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/incrypto-io/godash/chaincfg/chainhash)
 
 chainhash provides a generic hash type and associated functions that allows the
 specific hash algorithm to be abstracted.
@@ -11,7 +11,7 @@ specific hash algorithm to be abstracted.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/nargott/godash/chaincfg/chainhash
+$ go get -u github.com/incrypto-io/godash/chaincfg/chainhash
 ```
 
 ## GPG Verification Key

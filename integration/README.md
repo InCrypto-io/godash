@@ -5,7 +5,7 @@ integration
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
 
 This contains integration tests which make use of the
-[rpctest](https://github.com/nargott/godash/tree/master/integration/rpctest)
+[rpctest](https://github.com/incrypto-io/godash/tree/master/integration/rpctest)
 package to programmatically drive nodes via RPC.
 
 ## License

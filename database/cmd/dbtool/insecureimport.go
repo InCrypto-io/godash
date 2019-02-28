@@ -12,9 +12,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

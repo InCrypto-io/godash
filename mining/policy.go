@@ -5,8 +5,8 @@
 package mining
 
 import (
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

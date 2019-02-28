@@ -3,7 +3,7 @@ connmgr
 
 [![Build Status](http://img.shields.io/travis/nargott/godash.svg)](https://travis-ci.org/nargott/godash)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/nargott/godash/connmgr)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/incrypto-io/godash/connmgr)
 
 Package connmgr implements a generic Bitcoin network connection manager.
 
@@ -29,7 +29,7 @@ In addition the connection manager provides the following utilities:
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/nargott/godash/connmgr
+$ go get -u github.com/incrypto-io/godash/connmgr
 ```
 
 ## License

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nargott/godashutil"
 	flags "github.com/jessevdk/go-flags"
+	"github.com/nargott/godashutil"
 )
 
 type config struct {

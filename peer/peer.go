@@ -17,12 +17,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/wire"
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/wire"
 )
 
 const (

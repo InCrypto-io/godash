@@ -20,9 +20,9 @@ import (
 
 	"github.com/btcsuite/goleveldb/leveldb"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

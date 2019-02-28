@@ -9,7 +9,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/nargott/godash/database"
+	"github.com/incrypto-io/godash/database"
 )
 
 // TestErrorCodeStringer tests the stringized output for the ErrorCode type.

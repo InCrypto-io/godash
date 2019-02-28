@@ -7,12 +7,12 @@ package main
 import (
 	"sync/atomic"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/mempool"
-	"github.com/nargott/godash/netsync"
-	"github.com/nargott/godash/peer"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/mempool"
+	"github.com/incrypto-io/godash/netsync"
+	"github.com/incrypto-io/godash/peer"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

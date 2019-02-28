@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/nargott/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg"
 )
 
 // TestNotifications ensures that notification callbacks are fired on events.

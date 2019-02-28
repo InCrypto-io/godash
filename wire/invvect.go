@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 const (

@@ -13,10 +13,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/txscript"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/txscript"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

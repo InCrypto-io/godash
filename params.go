@@ -6,8 +6,8 @@
 package main
 
 import (
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // activeNetParams is a pointer to the parameters specific to the

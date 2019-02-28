@@ -10,9 +10,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/peer"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/peer"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // mockRemotePeer creates a basic inbound peer listening on the simnet port for

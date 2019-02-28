@@ -9,8 +9,8 @@ import (
 	"fmt"
 
 	"github.com/btcsuite/btclog"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/wire"
 )
 
 var log = btclog.Disabled

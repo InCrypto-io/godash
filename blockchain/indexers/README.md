@@ -3,7 +3,7 @@ indexers
 
 [![Build Status](https://travis-ci.org/nargott/godash.png?branch=master)](https://travis-ci.org/nargott/godash)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/nargott/godash/blockchain/indexers?status.png)](http://godoc.org/github.com/nargott/godash/blockchain/indexers)
+[![GoDoc](https://godoc.org/github.com/incrypto-io/godash/blockchain/indexers?status.png)](http://godoc.org/github.com/incrypto-io/godash/blockchain/indexers)
 
 Package indexers implements optional block chain indexes.
 
@@ -23,7 +23,7 @@ via an RPC interface.
 ## Installation
 
 ```bash
-$ go get -u github.com/nargott/godash/blockchain/indexers
+$ go get -u github.com/incrypto-io/godash/blockchain/indexers
 ```
 
 ## License

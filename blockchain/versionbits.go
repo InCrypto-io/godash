@@ -7,7 +7,7 @@ package blockchain
 import (
 	"math"
 
-	"github.com/nargott/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg"
 )
 
 const (

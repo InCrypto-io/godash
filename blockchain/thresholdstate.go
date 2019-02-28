@@ -7,7 +7,7 @@ package blockchain
 import (
 	"fmt"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // ThresholdState define the various threshold states used when voting on

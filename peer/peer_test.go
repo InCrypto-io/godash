@@ -12,11 +12,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/peer"
-	"github.com/nargott/godash/wire"
 	"github.com/btcsuite/go-socks/socks"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/peer"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // conn mocks a network connection by implementing the net.Conn interface.  It

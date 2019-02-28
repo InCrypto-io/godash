@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // blockStatus is a bit field representing the validation state of the block.

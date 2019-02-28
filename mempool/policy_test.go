@@ -9,21 +9,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nargott/godash/btcec"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/txscript"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/btcec"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/txscript"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 
 // TestCalcMinRequiredTxRelayFee tests the calcMinRequiredTxRelayFee API.
 func TestCalcMinRequiredTxRelayFee(t *testing.T) {
 	tests := []struct {
-		name     string         // test description.
-		size     int64          // Transaction size in bytes.
+		name     string            // test description.
+		size     int64             // Transaction size in bytes.
 		relayFee godashutil.Amount // minimum relay transaction fee.
-		want     int64          // Expected fee.
+		want     int64             // Expected fee.
 	}{
 		{
 			// Ensure combination of size and fee that are less than 1000

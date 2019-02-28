@@ -12,8 +12,8 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/database"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/database"
 	"github.com/nargott/godashutil"
 )
 

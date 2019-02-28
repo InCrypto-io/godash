@@ -11,13 +11,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/database"
-	"github.com/nargott/godash/mempool"
-	peerpkg "github.com/nargott/godash/peer"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/database"
+	"github.com/incrypto-io/godash/mempool"
+	peerpkg "github.com/incrypto-io/godash/peer"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

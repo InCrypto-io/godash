@@ -14,7 +14,7 @@ import (
 	"runtime"
 	"time"
 
-	rpc "github.com/nargott/godash/rpcclient"
+	rpc "github.com/incrypto-io/godash/rpcclient"
 	"github.com/nargott/godashutil"
 )
 

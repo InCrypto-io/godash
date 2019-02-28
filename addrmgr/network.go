@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/wire"
 )
 
 var (

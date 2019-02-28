@@ -11,10 +11,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/database"
-	_ "github.com/nargott/godash/database/ffldb"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/database"
+	_ "github.com/incrypto-io/godash/database/ffldb"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

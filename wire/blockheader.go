@@ -9,7 +9,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // MaxBlockHeaderPayload is the maximum number of bytes a block header can be.

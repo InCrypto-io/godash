@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // TxSigHashes houses the partial set of sighashes introduced within BIP0143.

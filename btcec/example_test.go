@@ -8,8 +8,8 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/nargott/godash/btcec"
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/btcec"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // This example demonstrates signing a message with a secp256k1 private key that

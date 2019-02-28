@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/nargott/godash/txscript"
+	"github.com/incrypto-io/godash/txscript"
 )
 
 // TestCheckBlockScripts ensures that validating the all of the scripts in a

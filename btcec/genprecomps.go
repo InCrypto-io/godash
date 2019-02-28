@@ -18,7 +18,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/nargott/godash/btcec"
+	"github.com/incrypto-io/godash/btcec"
 )
 
 func main() {

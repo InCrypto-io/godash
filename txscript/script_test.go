@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // TestParseOpcode tests for opcode parsing with bad data templates.

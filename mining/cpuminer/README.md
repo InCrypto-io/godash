@@ -3,7 +3,7 @@ cpuminer
 
 [![Build Status](http://img.shields.io/travis/nargott/godash.svg)](https://travis-ci.org/nargott/godash)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/nargott/godash/mining/cpuminer)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/incrypto-io/godash/mining/cpuminer)
 
 ## Overview
 
@@ -15,7 +15,7 @@ now.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/nargott/godash/mining/cpuminer
+$ go get -u github.com/incrypto-io/godash/mining/cpuminer
 ```
 
 ## License

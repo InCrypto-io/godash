@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // TestInv tests the MsgInv API.

@@ -12,14 +12,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/nargott/godash/blockchain"
-	"github.com/nargott/godash/blockchain/fullblocktests"
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/database"
-	_ "github.com/nargott/godash/database/ffldb"
-	"github.com/nargott/godash/txscript"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/blockchain"
+	"github.com/incrypto-io/godash/blockchain/fullblocktests"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/database"
+	_ "github.com/incrypto-io/godash/database/ffldb"
+	"github.com/incrypto-io/godash/txscript"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 

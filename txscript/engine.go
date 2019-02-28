@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/nargott/godash/btcec"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/btcec"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // ScriptFlags is a bitmask defining additional operations or tests that will be

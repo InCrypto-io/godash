@@ -13,7 +13,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // genesisCoinbaseTx is the coinbase transaction for the genesis blocks for

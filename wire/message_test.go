@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // makeHeader is a convenience function to make a message header in the form of
@@ -71,11 +71,11 @@ func TestMessage(t *testing.T) {
 	msgReject := NewMsgReject("block", RejectDuplicate, "duplicate block")
 
 	tests := []struct {
-		in     Message    // Value to encode
-		out    Message    // Expected decoded value
-		pver   uint32     // Protocol version for wire encoding
+		in     Message // Value to encode
+		out    Message // Expected decoded value
+		pver   uint32  // Protocol version for wire encoding
 		btcnet DASHNet // Network to use for wire encoding
-		bytes  int        // Expected num bytes read/written
+		bytes  int     // Expected num bytes read/written
 	}{
 		{msgVersion, msgVersion, pver, MainNet, 125},
 		{msgVerack, msgVerack, pver, MainNet, 24},
@@ -227,12 +227,12 @@ func TestReadMessageWireErrors(t *testing.T) {
 	discardBytes := makeHeader(btcnet, "bogus", 15*1024, 0)
 
 	tests := []struct {
-		buf     []byte     // Wire encoding
-		pver    uint32     // Protocol version for wire encoding
+		buf     []byte  // Wire encoding
+		pver    uint32  // Protocol version for wire encoding
 		btcnet  DASHNet // Bitcoin network for wire encoding
-		max     int        // Max size of fixed buffer to induce errors
-		readErr error      // Expected read error
-		bytes   int        // Expected num bytes read
+		max     int     // Max size of fixed buffer to induce errors
+		readErr error   // Expected read error
+		bytes   int     // Expected num bytes read
 	}{
 		// Latest protocol version with intentional read errors.
 
@@ -394,12 +394,12 @@ func TestWriteMessageWireErrors(t *testing.T) {
 	bogusMsg := &fakeMessage{command: "bogus", payload: bogusPayload}
 
 	tests := []struct {
-		msg    Message    // Message to encode
-		pver   uint32     // Protocol version for wire encoding
+		msg    Message // Message to encode
+		pver   uint32  // Protocol version for wire encoding
 		btcnet DASHNet // Bitcoin network for wire encoding
-		max    int        // Max size of fixed buffer to induce errors
-		err    error      // Expected error
-		bytes  int        // Expected num bytes written
+		max    int     // Max size of fixed buffer to induce errors
+		err    error   // Expected error
+		bytes  int     // Expected num bytes written
 	}{
 		// Command too long.
 		{badCommandMsg, pver, btcnet, 0, wireErr, 0},

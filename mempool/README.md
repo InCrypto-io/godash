@@ -3,7 +3,7 @@ mempool
 
 [![Build Status](http://img.shields.io/travis/nargott/godash.svg)](https://travis-ci.org/nargott/godash)
 [![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/nargott/godash/mempool)
+[![GoDoc](https://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/incrypto-io/godash/mempool)
 
 Package mempool provides a policy-enforced pool of unmined bitcoin transactions.
 
@@ -74,7 +74,7 @@ be an exhaustive list.
 ## Installation and Updating
 
 ```bash
-$ go get -u github.com/nargott/godash/mempool
+$ go get -u github.com/incrypto-io/godash/mempool
 ```
 
 ## License

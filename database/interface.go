@@ -8,7 +8,7 @@
 package database
 
 import (
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 	"github.com/nargott/godashutil"
 )
 

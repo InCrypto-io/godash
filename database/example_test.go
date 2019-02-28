@@ -11,10 +11,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/nargott/godash/chaincfg"
-	"github.com/nargott/godash/database"
-	_ "github.com/nargott/godash/database/ffldb"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/chaincfg"
+	"github.com/incrypto-io/godash/database"
+	_ "github.com/incrypto-io/godash/database/ffldb"
+	"github.com/incrypto-io/godash/wire"
 	"github.com/nargott/godashutil"
 )
 
@@ -23,8 +23,8 @@ func ExampleCreate() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/nargott/godash/database"
-	// 	_ "github.com/nargott/godash/database/ffldb"
+	// 	"github.com/incrypto-io/godash/database"
+	// 	_ "github.com/incrypto-io/godash/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -49,8 +49,8 @@ func Example_basicUsage() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/nargott/godash/database"
-	// 	_ "github.com/nargott/godash/database/ffldb"
+	// 	"github.com/incrypto-io/godash/database"
+	// 	_ "github.com/incrypto-io/godash/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.
@@ -115,8 +115,8 @@ func Example_blockStorageAndRetrieval() {
 	// This example assumes the ffldb driver is imported.
 	//
 	// import (
-	// 	"github.com/nargott/godash/database"
-	// 	_ "github.com/nargott/godash/database/ffldb"
+	// 	"github.com/incrypto-io/godash/database"
+	// 	_ "github.com/incrypto-io/godash/database/ffldb"
 	// )
 
 	// Create a database and schedule it to be closed and removed on exit.

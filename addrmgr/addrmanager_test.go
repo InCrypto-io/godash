@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nargott/godash/addrmgr"
-	"github.com/nargott/godash/wire"
+	"github.com/incrypto-io/godash/addrmgr"
+	"github.com/incrypto-io/godash/wire"
 )
 
 // naTest is used to describe a test to be performed against the NetAddressKey

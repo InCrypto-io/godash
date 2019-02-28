@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/nargott/godash/btcjson"
+	"github.com/incrypto-io/godash/btcjson"
 )
 
 const (

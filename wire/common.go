@@ -12,7 +12,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 const (

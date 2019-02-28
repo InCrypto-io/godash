@@ -1,4 +1,4 @@
-package: github.com/nargott/godash
+package: github.com/incrypto-io/godash
 import:
 - package: github.com/btcsuite/btclog
 - package: github.com/nargott/godashutil

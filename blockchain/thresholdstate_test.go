@@ -7,7 +7,7 @@ package blockchain
 import (
 	"testing"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // TestThresholdStateStringer tests the stringized output for the

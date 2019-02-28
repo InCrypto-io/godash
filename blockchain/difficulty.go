@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 var (

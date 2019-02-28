@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // maxFlagsPerMerkleBlock is the maximum number of flag bytes that could

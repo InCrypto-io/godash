@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/nargott/godash/database"
-	_ "github.com/nargott/godash/database/ffldb"
+	"github.com/incrypto-io/godash/database"
+	_ "github.com/incrypto-io/godash/database/ffldb"
 )
 
 var (

@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/nargott/godash/chaincfg/chainhash"
-	"github.com/nargott/godash/rpcclient"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/rpcclient"
 )
 
 // JoinType is an enum representing a particular type of "node join". A node

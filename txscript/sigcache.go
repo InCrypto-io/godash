@@ -7,8 +7,8 @@ package txscript
 import (
 	"sync"
 
-	"github.com/nargott/godash/btcec"
-	"github.com/nargott/godash/chaincfg/chainhash"
+	"github.com/incrypto-io/godash/btcec"
+	"github.com/incrypto-io/godash/chaincfg/chainhash"
 )
 
 // sigCacheEntry represents an entry in the SigCache. Entries within the
