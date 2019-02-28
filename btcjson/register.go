@@ -1,5 +1,4 @@
 // Copyright (c) 2014 The btcsuite developers
-// Copyright (c) 2016 The Dash developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -24,12 +23,6 @@ const (
 	// server that supports wallet commands.
 	UFWalletOnly UsageFlag = 1 << iota
 
-	// UFWebsocketOnly indicates that the command can only be used when
-	// communicating with an RPC server over websockets.  This typically
-	// applies to notifications and notification registration functions
-	// since neiher makes since when using a single-shot HTTP-POST request.
-	UFWebsocketOnly
-
 	// UFNotification indicates that the command is actually a notification.
 	// This means when it is marshalled, the ID must be nil.
 	UFNotification
@@ -42,9 +35,8 @@ const (
 
 // Map of UsageFlag values back to their constant names for pretty printing.
 var usageFlagStrings = map[UsageFlag]string{
-	UFWalletOnly:    "UFWalletOnly",
-	UFWebsocketOnly: "UFWebsocketOnly",
-	UFNotification:  "UFNotification",
+	UFWalletOnly:   "UFWalletOnly",
+	UFNotification: "UFNotification",
 }
 
 // String returns the UsageFlag in human-readable form.

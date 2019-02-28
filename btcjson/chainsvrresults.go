@@ -29,7 +29,7 @@ type GetBlockHeaderVerboseResult struct {
 // hex-encoded string.
 type GetBlockVerboseResult struct {
 	Hash          string        `json:"hash"`
-	Confirmations uint64        `json:"confirmations"`
+	Confirmations int64         `json:"confirmations"`
 	StrippedSize  int32         `json:"strippedsize"`
 	Size          int32         `json:"size"`
 	Weight        int32         `json:"weight"`
@@ -63,6 +63,13 @@ type DecodeScriptResult struct {
 	P2sh      string   `json:"p2sh,omitempty"`
 }
 
+// EstimateSmartFeeResult models the data returned from the estimatesmartfee command.
+type EstimateSmartFeeResult struct {
+	FeeRate *float64  `json:"feerate,omitempty"`
+	Errors  *[]string `json:"errors,omitempty"`
+	Blocks  int       `json:"blocks"`
+}
+
 // GetAddedNodeInfoResultAddr models the data of the addresses portion of the
 // getaddednodeinfo command.
 type GetAddedNodeInfoResultAddr struct {
@@ -90,11 +97,11 @@ type SoftForkDescription struct {
 // Bip9SoftForkDescription describes the current state of a defined BIP0009
 // version bits soft-fork.
 type Bip9SoftForkDescription struct {
-	Status    string `json:"status"`
-	Bit       uint8  `json:"bit"`
-	StartTime int64  `json:"startTime"`
-	Timeout   int64  `json:"timeout"`
-	Since     int32  `json:"since"`
+	Status    string `json:"status,omitempty"`
+	Bit       uint8  `json:"bit,omitempty"`
+	StartTime int64  `json:"startTime,omitempty"`
+	Timeout   int64  `json:"timeout,omitempty"`
+	Since     int32  `json:"since,omitempty"`
 }
 
 // GetBlockChainInfoResult models the data returned from the getblockchaininfo

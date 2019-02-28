@@ -1,5 +1,4 @@
 // Copyright (c) 2014 The btcsuite developers
-// Copyright (c) 2016 The Dash developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
@@ -56,6 +55,9 @@ type InfoWalletResult struct {
 	RelayFee        float64 `json:"relayfee"`
 	Errors          string  `json:"errors"`
 }
+
+// EstimateFeeResult models the data returned from the fee command.
+type EstimateFeeResult *float64
 
 // ListTransactionsResult models the data from the listtransactions command.
 type ListTransactionsResult struct {

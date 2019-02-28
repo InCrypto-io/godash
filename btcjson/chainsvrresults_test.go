@@ -1,15 +1,12 @@
 // Copyright (c) 2014 The btcsuite developers
-// Copyright (c) 2016 The Dash developers
 // Use of this source code is governed by an ISC
 // license that can be found in the LICENSE file.
 
-package btcjson_test
+package btcjson
 
 import (
 	"encoding/json"
 	"testing"
-
-	"github.com/nargott/godash/btcjson"
 )
 
 // TestChainSvrCustomResults ensures any results that have custom marshalling
@@ -18,6 +15,8 @@ import (
 func TestChainSvrCustomResults(t *testing.T) {
 	t.Parallel()
 
+	staticFee := float64(0.00002)
+
 	tests := []struct {
 		name     string
 		result   interface{}
@@ -25,7 +24,7 @@ func TestChainSvrCustomResults(t *testing.T) {
 	}{
 		{
 			name: "custom vin marshal with coinbase",
-			result: &btcjson.Vin{
+			result: &Vin{
 				Coinbase: "021234",
 				Sequence: 4294967295,
 			},
@@ -33,10 +32,10 @@ func TestChainSvrCustomResults(t *testing.T) {
 		},
 		{
 			name: "custom vin marshal without coinbase",
-			result: &btcjson.Vin{
+			result: &Vin{
 				Txid: "123",
 				Vout: 1,
-				ScriptSig: &btcjson.ScriptSig{
+				ScriptSig: &ScriptSig{
 					Asm: "0",
 					Hex: "00",
 				},
@@ -46,7 +45,7 @@ func TestChainSvrCustomResults(t *testing.T) {
 		},
 		{
 			name: "custom vinprevout marshal with coinbase",
-			result: &btcjson.VinPrevOut{
+			result: &VinPrevOut{
 				Coinbase: "021234",
 				Sequence: 4294967295,
 			},
@@ -54,20 +53,36 @@ func TestChainSvrCustomResults(t *testing.T) {
 		},
 		{
 			name: "custom vinprevout marshal without coinbase",
-			result: &btcjson.VinPrevOut{
+			result: &VinPrevOut{
 				Txid: "123",
 				Vout: 1,
-				ScriptSig: &btcjson.ScriptSig{
+				ScriptSig: &ScriptSig{
 					Asm: "0",
 					Hex: "00",
 				},
-				PrevOut: &btcjson.PrevOut{
+				PrevOut: &PrevOut{
 					Addresses: []string{"addr1"},
 					Value:     0,
 				},
 				Sequence: 4294967295,
 			},
 			expected: `{"txid":"123","vout":1,"scriptSig":{"asm":"0","hex":"00"},"prevOut":{"addresses":["addr1"],"value":0},"sequence":4294967295}`,
+		},
+		{
+			name: "estimatesmartfee with no errors",
+			result: &EstimateSmartFeeResult{
+				FeeRate: &staticFee,
+				Blocks:  6,
+			},
+			expected: `{"feerate":0.00002,"blocks":6}`,
+		},
+		{
+			name: "estimatesmartfee with errors",
+			result: &EstimateSmartFeeResult{
+				Errors: &[]string{"An error has occurred"},
+				Blocks: 6,
+			},
+			expected: `{"errors":["An error has occurred"],"blocks":6}`,
 		},
 	}
 
