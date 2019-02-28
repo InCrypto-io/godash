@@ -11,7 +11,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/bitlum/go-dashd-rpc/btcjson"
+	"github.com/incrypto-io/godash/btcjson"
 	"io/ioutil"
 	"net/http"
 	"net/url"

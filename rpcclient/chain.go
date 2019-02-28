@@ -10,9 +10,9 @@ import (
 	"encoding/hex"
 	"encoding/json"
 
-	"github.com/bitlum/go-dashd-rpc/btcjson"
 	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/btcsuite/btcd/wire"
+	"github.com/incrypto-io/godash/btcjson"
 )
 
 // FutureEstimateSmartFeeResult is a promise to deliver the result of a

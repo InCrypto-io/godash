@@ -7,7 +7,7 @@ package rpcclient
 import (
 	"encoding/json"
 
-	"github.com/bitlum/go-dashd-rpc/btcjson"
+	"github.com/incrypto-io/godash/btcjson"
 )
 
 // AddNodeCommand enumerates the available commands that the AddNode function
