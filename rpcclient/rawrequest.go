@@ -8,17 +8,17 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/nargott/godash/btcjson"
+	"github.com/bitlum/go-dashd-rpc/btcjson"
 )
 
 // FutureRawResult is a future promise to deliver the result of a RawRequest RPC
 // invocation (or an applicable error).
-type FutureRawResult chan *response
+type FutureRawResult chan *Response
 
 // Receive waits for the response promised by the future and returns the raw
 // response, or an error if the request was unsuccessful.
 func (r FutureRawResult) Receive() (json.RawMessage, error) {
-	return receiveFuture(r)
+	return ReceiveFuture(r)
 }
 
 // RawRequestAsync returns an instance of a type that can be used to get the
@@ -55,7 +55,7 @@ func (c *Client) RawRequestAsync(method string, params []json.RawMessage) Future
 	}
 
 	// Generate the request and send it along with a channel to respond on.
-	responseChan := make(chan *response, 1)
+	responseChan := make(chan *Response, 1)
 	jReq := &jsonRequest{
 		id:             id,
 		method:         method,
@@ -63,7 +63,7 @@ func (c *Client) RawRequestAsync(method string, params []json.RawMessage) Future
 		marshalledJSON: marshalledJSON,
 		responseChan:   responseChan,
 	}
-	c.sendRequest(jReq)
+	c.sendPost(jReq)
 
 	return responseChan
 }
